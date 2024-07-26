@@ -1,0 +1,578 @@
+* {
+	width: auto;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	font-family: "Poppins", sans-serif;
+  	font-weight: 300;
+  	font-style: normal;
+}
+
+body {
+	background-image: url('impp.jpg');
+	background-size: 100% 120%;
+	background-repeat: no-repeat;
+}
+
+#header {
+	position: relative;
+	top:-30px;
+	line-height: 1.8;
+	font-weight: bold;
+	font-size: 50px;
+	padding: 20px;
+	margin-inline: auto;
+	background-color: #597BA7;
+	width: auto;
+	height:80px;
+	text-shadow: 1px 1px 2px white;
+}
+
+
+.container {
+	position: relative;
+	top: -30px;
+	border: 1px solid black;
+	max-width: 1100px;
+	height: 650px;
+	margin-inline: auto;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	border-radius: 30px;
+	background: rgba(255, 255, 255, 0.23);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(8.6px);
+	-webkit-backdrop-filter: blur(8.6px);
+	box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px black;
+}
+
+#login-img {
+	position: fixed;
+	left: 100px;
+	top: 100px;
+	width: 400px;
+	height: 400px;
+}
+
+
+form {
+	position: relative;
+	top: 180px;
+}
+
+
+.center-input {
+	text-align: center;
+}
+
+.center-input::placeholder {
+	text-align: center;
+}
+
+#in1 {
+	position: absolute;
+	right: 230px;
+	top: 5px;
+	font-size: 20px;
+	color: white;
+}
+
+#in2 {
+	position: absolute;
+	right: 210px;
+	bottom: 40px;
+	font-size: 20px;
+	color: white;
+}
+
+#in-input1 {
+	min-width: 400px;
+	position: absolute;
+	right: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#in-input2 {
+	min-width: 400px;
+	position: absolute;
+	right: 50px;
+	bottom: -20px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#remember-me {
+	position: absolute;
+	right: 410px;
+	bottom: -80px;
+	width: 20px;
+	height: 20px;
+}
+
+#remember-me-label {
+	position: absolute;
+	right: 300px;
+	bottom: -77px;
+	color: black;
+}
+
+#forgot {
+	position: absolute;
+	right: 100px;
+	bottom: -77px;
+	text-decoration: none;
+	color: black;
+}
+
+#forgot:hover {
+	color: red;
+	transition: .5s ease-in-out;
+}
+
+#login-btn {
+	position: absolute;
+	right: 290px;
+	bottom: -200px;
+	min-width: 120px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#signup-btn {
+	position: absolute;
+	right: 100px;
+	bottom: -200px;
+	min-width: 120px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#hello {
+	position: absolute;
+	top: -200px;
+	right: 350px;
+	font-size: 50px;
+}
+
+#welcome {
+	position: absolute;
+	top: -150px;
+	right: 70px;
+	font-size: 70px;
+	font-weight: 600;
+	text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px black;
+}
+
+#login-btn:hover {
+	background-color: #7EDBE7;
+	transition: .5s ease-in-out;
+	border: 1px solid white;
+	scale: 1.2;
+}
+
+
+#signup-btn:hover {
+	background-color: #ED9999;
+	transition: .5s ease-in-out;
+	border: 1px solid white;
+	scale: 1.2;
+}
+
+@media only screen and (max-width: 1920px) {
+	  body {
+    width: auto;
+ 	margin-inline: auto;
+  }
+
+  .container {
+  	max-width: 1100px;
+  	margin-inline: auto;
+  }
+
+  #login-img {
+  	position: absolute;
+  	top: 160px;
+  	left: 80px;
+  	width: 400px;
+  	height: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    width: auto;
+ 	margin-inline: auto;
+  }
+
+  .container {
+  	max-width: 1100px;
+  	margin-inline: auto;
+  }
+
+  #login-img {
+  	position: absolute;
+  	top: 160px;
+  	left: 80px;
+  	width: 400px;
+  	height: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    width: auto;
+ 	margin-inline: auto;
+  }
+
+  .container {
+  	max-width: 1000px;
+  	margin-inline: auto;
+  }
+
+  #login-img {
+  	position: absolute;
+  	top: 160px;
+  	left: 80px;
+  	width: 400px;
+  	height: 400px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 950px) {
+  body {
+    width: auto;
+ 	margin-inline: auto;
+  }
+
+  .container {
+  	max-width: 800px;
+  	margin-inline: auto;
+  }
+
+  #login-img {
+  	position: absolute;
+  	top: 70px;
+  	left: 50px;
+  	width: 100px;
+  	height: 100px;
+  	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+  }
+  
+  #in1 {
+  	position: absolute;
+  	left: 220px;
+  	color: black;
+  }
+
+  #in-input1 {
+  	position: absolute;
+  	left: 140px;
+  	max-width: 500px;
+  }
+
+  #in2 {
+  	position: absolute;
+  	left: 200px;
+  	color: black;
+  }
+
+   #in-input2 {
+  	position: absolute;
+  	left: 140px;
+  	max-width: 500px;
+  }
+
+  #remember-me {
+  	position: absolute;
+  	left: 180px;
+  }
+  
+  #remember-me-label {
+  	position: absolute;
+  	left: 20px;
+  }
+
+  #forgot {
+  	position: absolute;
+  	right: 200px;
+  }
+
+  #login-btn {
+  	position: absolute;
+  	left: 250px;
+  	max-width: 120px;
+  }
+
+  #signup-btn {
+  	position: absolute;
+  	right: 250px;
+  }
+
+  #hello {
+  	position: absolute;
+  	left:30px;
+  }
+
+  #welcome {
+  	position: absolute;
+  	left: 80px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    width: auto;
+ 	margin-inline: auto;
+  }
+
+  .container {
+  	max-width: 500px;
+  	margin-inline: auto;
+  }
+
+
+  #login-img {
+  	display: none;
+  }
+  
+  #in-input1 {
+  	position: absolute;
+  	left: 50px;
+  }
+
+  #in-input2 {
+  	position: absolute;
+  	left: 50px;
+  }
+
+  #remember-me {
+  	position: absolute;
+  	left: 70px;
+  }
+
+  #remember-me-label {
+  	position: absolute;
+  	left: 100px;
+  	white-space: nowrap;
+  }
+
+  #forgot {
+  	position: absolute;
+  	left: 280px;
+  	white-space: nowrap;
+  }
+
+  #login-btn {
+  	position: absolute;
+  	left: 110px;
+  }
+
+  #signup-btn {
+  	position: absolute;
+  	left: 260px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: auto;
+ 	margin-inline: auto;
+  }
+
+  #header {
+  	font-size: 40px;
+  }
+
+  .container {
+  	max-width: 400px;
+  	height: 500px;
+  	margin-inline: auto;
+  }
+
+
+  #login-img {
+  	display: none;
+  }
+
+  #hello {
+  	position: absolute;
+  	left: 20px;
+  	font-size: 30px;
+  }
+
+  #welcome{
+  	position: absolute;
+  	top: -210px;
+  	left: 80px;
+  	font-size: 40px;
+  }
+  
+ #in1 {
+ 	position: absolute;
+ 	top: -70px;
+ 	color: black;
+ 	left: 170px;
+ }
+
+ #in-input1 {
+ 	position: absolute;
+ 	top: -40px;
+ 	left: 45px;
+ 	min-width: 20px;
+ }
+
+ #in2 {
+ 	position: absolute;
+ 	top: 25px;
+ 	color: black;
+ 	left: 155px;
+ }
+
+ #in-input2 {
+ 	position: absolute;
+ 	top: 55px;
+ 	left: 45px;
+ 	min-width: 20px;
+ }
+
+ #remember-me {
+ 	position: absolute;
+ 	top: 135px;
+ 	left: 50px;
+ }
+
+ #remember-me-label {
+ 	position: absolute;
+ 	top: 138px;
+ 	left: 80px;
+ }
+
+ #forgot {
+ 	position: absolute;
+ 	top: 138px;
+ 	left: 220px;
+ 	font-size: 3vw;
+ }
+
+ #login-btn {
+ 	position: absolute;
+ 	top: 200px;
+ 	left: 50px;
+ }
+
+  #signup-btn {
+ 	position: absolute;
+ 	top: 200px;
+ 	left: 210px;
+ }
+
+}
+
+@media only screen and (max-width: 490px) {
+  body {
+    width: auto;
+ 	margin-inline: auto;
+  }
+
+  #header {
+  	font-size: 40px;
+  }
+
+  .container {
+  	max-width: 380px;
+  	height: 500px;
+  	margin-inline: auto;
+  }
+
+
+  #login-img {
+  	display: none;
+  }
+
+  #hello {
+  	position: absolute;
+  	top: -180px;
+  	left: 20px;
+  	font-size: 30px;
+  }
+
+  #welcome{
+  	position: absolute;
+  	top: -190px;
+  	left: 80px;
+  	font-size: 40px;
+  }
+  
+ #in1 {
+ 	position: absolute;
+ 	top: -70px;
+ 	color: black;
+ 	left: 170px;
+ }
+
+ #in-input1 {
+ 	position: absolute;
+ 	top: -40px;
+ 	left: 45px;
+ 	min-width: 20px;
+ }
+
+ #in2 {
+ 	position: absolute;
+ 	top: 25px;
+ 	color: black;
+ 	left: 155px;
+ }
+
+ #in-input2 {
+ 	position: absolute;
+ 	top: 55px;
+ 	left: 45px;
+ 	min-width: 20px;
+ }
+
+ #remember-me {
+ 	position: absolute;
+ 	top: 135px;
+ 	left: 50px;
+ }
+
+ #remember-me-label {
+ 	position: absolute;
+ 	top: 138px;
+ 	left: 80px;
+ }
+
+ #forgot {
+ 	position: absolute;
+ 	top: 138px;
+ 	left: 220px;
+ 	font-size: 3vw;
+ }
+
+ #login-btn {
+ 	position: absolute;
+ 	top: 200px;
+ 	left: 50px;
+ }
+
+  #signup-btn {
+ 	position: absolute;
+ 	top: 200px;
+ 	left: 210px;
+ }
+
+}
