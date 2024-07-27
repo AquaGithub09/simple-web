@@ -589,10 +589,16 @@ form {
 
   .container {
   	max-width: 350px;
-  	height: 500px;
+  	height: 550px;
   	margin-inline: auto;
   }
 
+  .form-container {
+  	position: absolute;
+  	top: 0px;
+  	height: 550px;
+  	width: auto;
+  }
 
   #login-img {
   	display: none;
@@ -601,41 +607,41 @@ form {
   #hello {
   	position: absolute;
   	top: -180px;
-  	left: 20px;
+  	left: 40px;
   	font-size: 30px;
   }
 
   #welcome{
   	position: absolute;
-  	top: -190px;
-  	left: 100px;
+  	top: -150px;
+  	left: 80px;
   	font-size: 40px;
   }
   
  #in1 {
  	position: absolute;
- 	top: -70px;
+ 	top: -60px;
  	color: black;
  	left: 140px;
  }
 
  #in-input1 {
  	position: absolute;
- 	top: -40px;
+ 	top: -30px;
  	left: 45px;
  	min-width: 20px;
  }
 
  #in2 {
  	position: absolute;
- 	top: 25px;
+ 	top: 35px;
  	color: black;
  	left: 120px;
  }
 
  #in-input2 {
  	position: absolute;
- 	top: 55px;
+ 	top: 65px;
  	left: 45px;
  	min-width: 20px;
  }
@@ -643,7 +649,7 @@ form {
  #remember-me {
  	position: absolute;
  	top: 135px;
- 	left: 42px;
+ 	left: 105px;
  	width: 15spx;
  	height: 15px;
  }
@@ -651,20 +657,20 @@ form {
  #remember-me-label {
  	position: absolute;
  	top: 139px;
- 	left: 65px;
+ 	left: 130px;
  	font-size: 3vw;
  }
 
  #forgot {
  	position: absolute;
- 	top: 138px;
- 	left: 185px;
+ 	top: 170px;
+ 	left: 70px;
  	font-size: 3vw;
  }
 
  #login-btn  {
  	position: absolute;
- 	top: 200px;
+ 	top: 220px;
  	left: 48px;
  	min-width: 117px;
  	height: 50px;
@@ -672,7 +678,7 @@ form {
 
  #signup-btn {
  	position: absolute;
- 	top: 200px;
+ 	top: 220px;
  	min-width: 117px;
  	height: 50px;
  	left: 180px;
