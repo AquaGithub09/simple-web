@@ -649,7 +649,7 @@ form {
  #remember-me {
  	position: absolute;
  	top: 135px;
- 	left: 105px;
+ 	left: 50px;
  	width: 15spx;
  	height: 15px;
  }
@@ -657,20 +657,20 @@ form {
  #remember-me-label {
  	position: absolute;
  	top: 139px;
- 	left: 130px;
+ 	left: 75px;
  	font-size: 3vw;
  }
 
  #forgot {
  	position: absolute;
- 	top: 170px;
- 	left: 70px;
+ 	top: 139px;
+ 	left: 184px;
  	font-size: 3vw;
  }
 
  #login-btn  {
  	position: absolute;
- 	top: 220px;
+ 	top: 190px;
  	left: 48px;
  	min-width: 117px;
  	height: 50px;
@@ -678,7 +678,7 @@ form {
 
  #signup-btn {
  	position: absolute;
- 	top: 220px;
+ 	top: 190px;
  	min-width: 117px;
  	height: 50px;
  	left: 180px;
