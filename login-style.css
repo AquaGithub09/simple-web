@@ -56,6 +56,17 @@ body {
 	height: 400px;
 }
 
+.form-container {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 500px;
+	height: 650px;
+	background: rgba(0, 0, 0, 0.53);
+	border-radius: 0px 15px 15px 0px;
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+}
 
 form {
 	position: relative;
@@ -118,7 +129,7 @@ form {
 	position: absolute;
 	right: 300px;
 	bottom: -77px;
-	color: black;
+	color: white;
 }
 
 #forgot {
@@ -126,7 +137,7 @@ form {
 	right: 100px;
 	bottom: -77px;
 	text-decoration: none;
-	color: black;
+	color: white;
 
 }
 
@@ -155,11 +166,23 @@ form {
 	border-radius: 5px;
 }
 
+#signup-btn a {
+	position: absolute;
+	text-decoration: none;
+	color: black;
+	left: 0px;
+	bottom: 0px;
+	min-width: 117px;
+	line-height: 3.5;
+	height: 46px;
+}
+
 #hello {
 	position: absolute;
 	top: -200px;
 	right: 350px;
 	font-size: 50px;
+	color: white;
 }
 
 #welcome {
@@ -168,7 +191,8 @@ form {
 	right: 70px;
 	font-size: 70px;
 	font-weight: 600;
-	text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px black;
+	text-shadow: 1px 1px 2px #333, 0 0 25px black, 0 0 5px black;
+	color: white;
 }
 
 #login-btn:hover {
@@ -176,6 +200,7 @@ form {
 	transition: .5s ease-in-out;
 	border: 1px solid white;
 	scale: 1.2;
+	cursor: pointer;
 }
 
 
@@ -242,7 +267,7 @@ form {
   #login-img {
   	position: absolute;
   	top: 160px;
-  	left: 80px;
+  	left: 40px;
   	width: 400px;
   	height: 400px;
   }
@@ -264,10 +289,10 @@ form {
 
   #login-img {
   	position: absolute;
-  	top: 70px;
-  	left: 50px;
-  	width: 100px;
-  	height: 100px;
+  	top: 200px;
+  	left: 60px;
+  	width: 200px;
+  	height: 200px;
   	-webkit-transform: scaleX(-1);
   	transform: scaleX(-1);
   }
@@ -275,51 +300,49 @@ form {
   #in1 {
   	position: absolute;
   	left: 220px;
-  	color: black;
   }
 
   #in-input1 {
   	position: absolute;
-  	left: 140px;
+  	left: 50px;
   	max-width: 500px;
   }
 
   #in2 {
   	position: absolute;
   	left: 200px;
-  	color: black;
   }
 
    #in-input2 {
   	position: absolute;
-  	left: 140px;
+  	left: 50px;
   	max-width: 500px;
   }
 
   #remember-me {
   	position: absolute;
-  	left: 180px;
+  	left: 80px;
   }
   
   #remember-me-label {
   	position: absolute;
-  	left: 20px;
+  	left: 120px;
+  	white-space: nowrap;
   }
 
   #forgot {
   	position: absolute;
-  	right: 200px;
+  	right: 80px;
   }
 
   #login-btn {
   	position: absolute;
-  	left: 250px;
-  	max-width: 120px;
+  	left: 100px;
   }
 
   #signup-btn {
   	position: absolute;
-  	right: 250px;
+  	right: 100px;
   }
 
   #hello {
@@ -344,46 +367,93 @@ form {
   	margin-inline: auto;
   }
 
+.form-container{
+	position: absolute;
+	height: 650px;
+	top: 0px;
+	border-radius: 16px;
+}
 
   #login-img {
   	display: none;
   }
   
+  #in1 {
+  	position: absolute;	
+  	top: 8px;
+  }
+
   #in-input1 {
   	position: absolute;
+  	top: 40px;
   	left: 50px;
+  }
+
+  #in2 {
+  	position: absolute;
+  	top: 110px;
   }
 
   #in-input2 {
   	position: absolute;
+  	top: 140px;
   	left: 50px;
   }
 
   #remember-me {
   	position: absolute;
-  	left: 70px;
+  	top: 227px;
+  	left: 80px;
   }
 
   #remember-me-label {
   	position: absolute;
-  	left: 100px;
+  	top: 230px;
+  	left: 110px;
   	white-space: nowrap;
   }
 
   #forgot {
   	position: absolute;
+  	top: 230px;
   	left: 280px;
   	white-space: nowrap;
   }
 
   #login-btn {
   	position: absolute;
+  	top: 340px;
   	left: 110px;
   }
 
   #signup-btn {
   	position: absolute;
+  	width: 117px;
+  	top: 340px;
   	left: 260px;
+  }
+
+  #signup-btn a {
+	position: absolute;
+	text-decoration: none;
+	color: black;
+	left: 0px;
+	bottom: 0px;
+	min-width: 117px;
+	line-height: 3.5;
+	height: 46px;
+}
+
+
+  #hello {
+  	position: absolute;
+  	top: -190px;
+  	color: white;
+  }
+
+  #welcome {
+  	position: absolute;
+  	top: -150px;
   }
 }
 
@@ -403,6 +473,16 @@ form {
   	margin-inline: auto;
   }
 
+  .form-container {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: auto;
+  	height: 500px;
+  	border-radius: 16px;
+  	border:none;
+  	align-items: center;
+  }
 
   #login-img {
   	display: none;
@@ -410,14 +490,15 @@ form {
 
   #hello {
   	position: absolute;
-  	left: 20px;
+  	left: 45px;
+  	top: -170px;
   	font-size: 30px;
   }
 
   #welcome{
   	position: absolute;
-  	top: -210px;
-  	left: 80px;
+  	top: -140px;
+  	left: -20px;
   	font-size: 40px;
   }
   
@@ -471,14 +552,27 @@ form {
  #login-btn {
  	position: absolute;
  	top: 200px;
- 	left: 50px;
+ 	left: 90px;
+ 	min-width: 117px;
  }
 
   #signup-btn {
  	position: absolute;
  	top: 200px;
- 	left: 210px;
+ 	min-width: 117px;
+ 	left: 240px;
  }
+
+  #signup-btn a {
+	position: absolute;
+	text-decoration: none;
+	color: black;
+	left: 0px;
+	bottom: 0px;
+	min-width: 114px;
+	line-height: 3.5;
+	height: 46px;
+}
 
 }
 
@@ -494,7 +588,7 @@ form {
   }
 
   .container {
-  	max-width: 330px;
+  	max-width: 350px;
   	height: 500px;
   	margin-inline: auto;
   }
@@ -568,20 +662,33 @@ form {
  	font-size: 3vw;
  }
 
- #login-btn {
+ #login-btn  {
  	position: absolute;
  	top: 200px;
- 	left: 70px;
- 	min-width: 80px;
- 	height: 40px;
+ 	left: 48px;
+ 	min-width: 117px;
+ 	height: 50px;
  }
 
-  #signup-btn {
+ #signup-btn {
  	position: absolute;
  	top: 200px;
+ 	min-width: 117px;
+ 	height: 50px;
  	left: 180px;
- 	min-width: 80px;
- 	height: 40px;
  }
+
+  #signup-btn a {
+	position: absolute;
+	text-decoration: none;
+	color: black;
+	left: 0px;
+	bottom: 0px;
+	min-width: 114px;
+	line-height: 3.5;
+	height: 50px;
+}
+
+
 
 }
