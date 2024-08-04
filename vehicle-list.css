@@ -1,0 +1,143 @@
+* {
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+  background-image: url('impp.jpg');
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+}
+
+#header {
+  position: relative;
+  top:-30px;
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 20px;
+  margin-inline: auto;
+  background-color: #597BA7;
+  width: auto;
+  height:60px;
+  text-shadow: 1px 1px 2px white;
+}
+
+
+
+.container {
+  position: relative;
+  top: -30px;
+  border: 1px solid black;
+  max-width: 1500px;
+  height: 750px;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 16px;
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+}
+
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 90px;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #597BA7;
+  border: 1px solid black;
+}
+
+.navbar li {
+  position: relative;
+  right: -1000px;
+  list-style-type: none;
+  display: inline;
+  padding: 15px;
+}
+
+.navbar a { 
+  text-decoration: none;
+  line-height: 5.5;
+  color: white;
+}
+
+.overflow-table {
+  position: absolute;
+  top: 92px;
+  width: 1499px;
+  height: 658px;
+  border-radius: 0px 0px 16px 16px;
+  overflow: auto;
+}
+
+.overflow-table::-webkit-scrollbar {
+  display: none;
+}
+
+table.cinereousTable {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 6px solid #948473;
+  background-color: floralwhite;
+  width: auto;
+  text-align: center;
+}
+
+table.cinereousTable img {
+	width: 120px;
+	height: 100px;
+}
+table.cinereousTable td, table.cinereousTable th {
+  border: 1px solid #948473;
+  padding: 4px 4px;
+  width: 300px;
+}
+
+table.cinereousTable tbody td {
+  font-size: 15px;
+}
+
+table.cinereousTable thead {
+  background: #948473;
+  background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: linear-gradient(to bottom, #afa396 0%, #9e9081 66%, #948473 100%);
+}
+
+table.cinereousTable thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #F0F0F0;
+  text-align: left;
+  border-left: 2px solid #948473;
+}
+
+table.cinereousTable thead th:first-child {
+  border-left: none;
+}
+
+table.cinereousTable tfoot {
+  font-size: 16px;
+  font-weight: bold;
+  color: #F0F0F0;
+  background: #948473;
+  background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: linear-gradient(to bottom, #afa396 0%, #9e9081 66%, #948473 100%);
+}
+
+table.cinereousTable tfoot td {
+  font-size: 16px;
+}
